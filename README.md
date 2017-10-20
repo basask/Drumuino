@@ -1,17 +1,6 @@
+This project is a low cost MIDI controller for amateurs drummers like me.
 
-This project intend to be a low cost drum for amateurs drummers like me.
-
-## Schematic
-
-TODO
-
-## Bill of materials
-
-TODO
-
-## USed algorithms
-
-TODO
+You can use as a MIDI controller for programs like Addictive Drums, Fruity Loops, Hydrogen or whatever MIDI capable software.
 
 ## General MIDI from drums
 
@@ -35,3 +24,12 @@ In general, drummachines implements these midi signals.
 |74| Long Guiro         |75| Claves             |76| Hi Wood Block      |
 |77| Low Wood Block     |78| Mute Cuica         |79| Open Cuica         |
 |80| Mute Triangle      |81| Open Triangle      |
+
+
+## Todos
+
+- [ ] Schematic
+- [ ] Bill of materials
+- [ ] Used algorithms
+- [ ] Dependencies
+- [ ] gh-page
