@@ -25,6 +25,14 @@ You may also need:
 In the breadboard a TRS audio jack was used but only a mono jack is needed.
 So, you can replace it with a TS audio jack as listed in the Bill os materials.
 
+## Dependencies
+
+Besides the arduino library this project depends on the
+[MIDIUSB](https://github.com/arduino-libraries/MIDIUSB) library.
+
+On [MIDIUSB github page](https://github.com/arduino-libraries/MIDIUSB) you can also find instruction about how to connect your arduino as a MIDI device.
+
+
 ## General MIDI from drums
 
 In general, drummachines implements these midi signals.
@@ -54,6 +62,6 @@ In general, drummachines implements these midi signals.
 - [x] Schematic;
 - [x] Bill of materials;
 - [ ] Used algorithms;
-- [ ] Dependencies;
+- [x] Dependencies;
 - [ ] gh-page;
 - [ ] Assembly instructions for Pads and bass drum pedal.
