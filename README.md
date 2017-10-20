@@ -2,6 +2,29 @@ This project is a low cost MIDI controller for amateurs drummers like me.
 
 You can use as a MIDI controller for programs like Addictive Drums, Fruity Loops, Hydrogen or whatever MIDI capable software.
 
+## Bill of materials
+
+|Quantity|Component|
+|--|--|
+|1|Arduino (UNO, Leonardo, etc)|
+|6|1MΩ Resistor|
+|6|Audio Jack (TS) 3.5mm|
+
+You may also need:
+
+|Quantity|Component|
+|--|--|
+|1|Breadbord|
+|1|USB to Micro USB Cable (PC to Arduino)|
+|-|Wire|
+
+
+## Breadboard
+
+![Breadboard](images/drumuino_bb.png)
+In the breadboard a TRS audio jack was used but only a mono jack is needed.
+So, you can replace it with a TS audio jack as listed in the Bill os materials.
+
 ## General MIDI from drums
 
 In general, drummachines implements these midi signals.
@@ -28,8 +51,9 @@ In general, drummachines implements these midi signals.
 
 ## Todos
 
-- [ ] Schematic
-- [ ] Bill of materials
-- [ ] Used algorithms
-- [ ] Dependencies
-- [ ] gh-page
+- [x] Schematic;
+- [x] Bill of materials;
+- [ ] Used algorithms;
+- [ ] Dependencies;
+- [ ] gh-page;
+- [ ] Assembly instructions for Pads and bass drum pedal.
