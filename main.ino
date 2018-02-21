@@ -4,17 +4,16 @@
 #include <pitchToNote.h>
 
 #define LOOP_DELAY 1
-#define ANALOG_CHANELS 4
+#define ANALOG_CHANELS 6
 #define THRESHOLD 100
 #define MAX_VELOCITY 120
+#define LEDPIN 13
 
 uint16_t peak_total[ANALOG_CHANELS];
 uint8_t peak_count[ANALOG_CHANELS];
 uint8_t notes[ANALOG_CHANELS];
 
 void setup() {
-    // Serial.begin(115200);
-
     memset(peak_total, 0, sizeof(peak_total));
     memset(peak_count, 0, sizeof(peak_count));
     memset(notes, 0, sizeof(notes));
@@ -23,8 +22,8 @@ void setup() {
     notes[1] = 40; // Snare
     notes[2] = 41; // Floor tom
     notes[3] = 46; // Open Hi-Hat
-    // notes[4] = 45; // Low tom
-    // notes[5] = 49; // Crash 1
+    notes[4] = 45; // Low tom
+    notes[5] = 49; // Crash 1
 }
 
 uint8_t getVelocity(uint16_t value) {

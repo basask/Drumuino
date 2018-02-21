@@ -1,4 +1,4 @@
-This project is a low cost MIDI controller for amateurs drummers like me.
+This project is a low cost MIDI controller assembled over the Arduino hardware platform.
 
 You can use as a MIDI controller for programs like Addictive Drums, Fruity Loops, Hydrogen or whatever MIDI capable software.
 
@@ -18,6 +18,11 @@ You may also need:
 |1|USB to Micro USB Cable (PC to Arduino)|
 |-|Wire|
 
+
+## Algorithm analysis
+
+An brief analysis on the algorithm used to fire MIDI notes are available in
+[Piezo Analysis Notebook](analysis/piezo-signal-analysis.ipynb).
 
 ## Schematics
 
@@ -61,7 +66,7 @@ In general, drummachines implements these midi signals.
 
 - [x] Schematic;
 - [x] Bill of materials;
-- [ ] Used algorithms;
+- [x] Used algorithms;
 - [x] Dependencies;
 - [ ] gh-page;
 - [ ] Assembly instructions for Pads and bass drum pedal.
