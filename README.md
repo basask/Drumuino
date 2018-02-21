@@ -19,10 +19,10 @@ You may also need:
 |-|Wire|
 
 
-## Breadboard
+## Schematics
 
-![Breadboard](images/drumuino_bb.png)
-In the breadboard a TRS audio jack was used but only a mono jack is needed.
+![Breadboard](images/drumuino_schem.png)
+In this schematics a TRS audio jack was used but only a mono jack is needed.
 So, you can replace it with a TS audio jack as listed in the Bill os materials.
 
 ## Dependencies
